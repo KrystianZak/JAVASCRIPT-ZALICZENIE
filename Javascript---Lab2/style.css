@@ -1,0 +1,59 @@
+.sliderContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.slides {
+    width: 400px;
+    height: 480px;
+    background-color: #1D2733;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.numbers {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 40px;
+}
+
+.numbs {
+    width: 20px;
+    height: 20px;
+}
+
+.buttons {
+    width: 60px;
+    height: 40px;
+    
+}
+
+
+.image {
+    width: 400px;
+    height: 400px;
+    
+}
+
+body {
+    background-color: #1A222F;
+}
+
+.text {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

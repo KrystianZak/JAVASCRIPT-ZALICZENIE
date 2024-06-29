@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drumkit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio src="./sounds/boom.wav" id="a" data-key="a"></audio>
+    <audio src="./sounds/clap.wav" id="s" data-key="s"></audio>
+    <audio src="./sounds/hihat.wav" id="d" data-key="d"></audio>
+    <audio src="./sounds/kick.wav" id="f" data-key="f"></audio>
+    <audio src="./sounds/openhat.wav" id="g" data-key="g"></audio>
+    <audio src="./sounds/ride.wav" id="h" data-key="h"></audio>
+    <audio src="./sounds/snare.wav" id="j" data-key="j"></audio>
+    <audio src="./sounds/tink.wav" id="k" data-key="k"></audio>
+    <audio src="./sounds/tom.wav" id="l" data-key="l"></audio>
+
+    <div name="a" class="piano">boom</div>
+    <div name="s" class="piano">clap</div>
+    <div name="d" class="piano">hihat</div>
+    <div name="f" class="piano">kick</div>
+    <div name="g" class="piano">openhat</div>
+    <div name="h" class="piano">ride</div>
+    <div name="j" class="piano">snare</div>
+    <div name="k" class="piano">tink</div>
+    <div name="l" class="piano">tom</div>
+    
+    <div class="controls">
+        <button id="record1">Record Channel 1</button>
+        <button id="play1">Play Channel 1</button>
+        <button id="record2">Record Channel 2</button>
+        <button id="play2">Play Channel 2</button>
+        <button id="record3">Record Channel 3</button>
+        <button id="play3">Play Channel 3</button>
+        <button id="record4">Record Channel 4</button>
+        <button id="play4">Play Channel 4</button>
+        <button id="playAll">Play All Channels</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
